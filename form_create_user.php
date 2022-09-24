@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Document</title>
 </head>
 <body>
-
-    <header class="header">
+<header class="header">
         <nav class="navegation">
             <abbr title="União Nacional dos Trouxa">UNT</abbr>
 
@@ -21,9 +20,9 @@
 
     <main class="main-part">
         <article class="post">
-            <h1>FORM</h1>
+            <h3>Cadastro de usuários</h3>
 
-            <form action="" method="GET">
+            <form action="create_user.php" method="POST">
                 <label for="client_name">Name: </label>
                 <input type="text" name="client_name" id="client_name" placeholder="Write your name"> <br><br>
                 <label for="email">Email: </label>
@@ -61,20 +60,5 @@
         </address>        
 
     </footer>
-
 </body>
-</html> <!--Todo mundo mente
-Registro.br - orgão brasileir que regulamento que registra os domínios 
-Serviços de hospedagem em cloud
-Criar uma conta no registro.com
-whois - consulta - leilão de domínio
-Semântica -> localizar a informação correta 
-SIGNIFICADO COM PALAVRAS EXPLICATIVA
-<HEADER>
-    ABBR -> ABREVIAÇÃO
-    address
-    code
-    dfn - definição
-    get - expõe as informações/ valor limitado
-    post - Encapsula as informações em um array e deixa seguro
--->
+</html>

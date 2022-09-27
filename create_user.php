@@ -1,12 +1,12 @@
 <?php
 
-$include_once = "database.php";
+include_once "database.php";
 
-$user_name = $_POST["client_name"];
-$user_password = $_POST["client_password"];
+$user_name = $_POST["user_name"];
+$user_tel = $_POST["user_tel"];
 
-$sql = "INSERT INTO sga_user( client_password, client_name)
-VALUES ('$user_name','$user_password')";
+$sql = "INSERT INTO professor_leandro (func_nome, func_telefone)
+VALUES ('$user_name','$user_tel')";
 
 if(mysqli_query($conection, $sql)){
     header("Location lister_user.php");

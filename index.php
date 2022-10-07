@@ -8,7 +8,7 @@ include ("header.php");
 </nav>
 <main>
     <article>
-        <h3>Client - Server</h3>
+        <h3>Cliente - Server</h3>
     </article>
 </main>
 <?php

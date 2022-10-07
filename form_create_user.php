@@ -14,7 +14,7 @@ include ("header.php");
     <h3>Create User</h3>
     <form action="create_user.php" method="post">
         <label for="user_name">User:</label>
-        <input type="text" name="user_name" id="iser_name">
+        <input type="text" name="user_name" id="user_name">
         <br>
         <label for="user_tel">Telephone:</label>
         <input type="tel" name="user_tel" id="user_tel">

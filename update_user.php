@@ -1,8 +1,8 @@
 <?php
 
-$id_search = $_POST["id"];
+$id_search = $_POST["user_name"];
 
-$sql = "SELECT * FROM sgd_ser WHERE id = $id_search";
+$sql = "SELECT * FROM client_data WHERE id = $id_search";
 
 $result = mysqli_query($conection, $sql);
 
@@ -20,9 +20,9 @@ $convert = msqli_fetch_assoc("result");
 </head>
 <body>
     <h3>Create User</h3>
-    <form action="create_user.php" method="post">
+    <form action="create_user.php" method="POST">
         <label for="user_name">User:</label>
-        <input type="text" name="user_name" id="iser_name">
+        <input type="text" name="user_name" id="user_name">
         <br>
         <label for="user_tel">Telephone:</label>
         <input type="tel" name="user_tel" id="user_tel">

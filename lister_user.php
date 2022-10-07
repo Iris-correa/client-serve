@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT * FROM professor_leandro";
+$sql = "SELECT * FROM client_data";
 
 $result = mysqli_query($conection, $sql);
 
